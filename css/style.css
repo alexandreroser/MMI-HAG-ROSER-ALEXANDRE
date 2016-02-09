@@ -1,9 +1,32 @@
+.wrapper{
+	margin-left:10%;
+	margin-right:10%;
+	
+}
 .bandenoir{
 	background-color:black;
-	height:10%;
+	height:20%;
 	width:100%;
 }
-
-.wrapper{
-	
+.logo{
+	padding-top:1%;
+	background-color:red;
+	width:0%;
+}
+.logo1{
+	color:#57c5a0;
+	font-size: 120%;
+	font-family: Helvetica;
+	text-decoration:none;
+	background-color:red;
+	float:left;
+}
+.login{
+	background-color:white;
+	float:right;
+}
+.fa {
+	color:white;
+	size:100%;
+	float:right;
 }
