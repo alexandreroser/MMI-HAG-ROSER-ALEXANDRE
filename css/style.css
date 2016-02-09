@@ -5,28 +5,29 @@
 }
 .bandenoir{
 	background-color:black;
-	height:20%;
 	width:100%;
+	height:3em;
 }
 .logo{
-	padding-top:1%;
-	background-color:red;
-	width:0%;
+	float:left;
 }
 .logo1{
 	color:#57c5a0;
-	font-size: 120%;
+	font-size:120%;
 	font-family: Helvetica;
 	text-decoration:none;
-	background-color:red;
-	float:left;
+	line-height:2.5em;
 }
-.login{
-	background-color:white;
-	float:right;
-}
-.fa {
+.recherchelogin {
 	color:white;
-	size:100%;
 	float:right;
+	line-height:3em;
+}
+.recherchelogin i {
+	color:white;
+}
+.recherche,.login {
+	float:left;
+	padding-left:1em;
+	border: solid white;
 }
