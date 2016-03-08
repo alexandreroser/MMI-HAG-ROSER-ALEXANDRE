@@ -1,12 +1,13 @@
 body {
 width:100%;
-font-family: 'Maven Pro', sans-serif;
+height:100%;
+background-color:#f1eeea;
 }
 header {
 background-color:#242424;
 }
 .wrapper {
-width:65%;
+width:55%;
 margin:0 auto;
 }
 .header-gauche {
@@ -17,7 +18,6 @@ display:block;
 }
 .header-gauche h1 {
 font-size:1.4em;
-font-family: 'Open Sans', sans-serif;
 }
 .header-droit {
 display:block;
@@ -30,7 +30,8 @@ display:block;
 border-right: 1px #7d7d7d solid; 
 float:left;
 padding-right:10px;
-margin-right:10px;}
+margin-right:10px;
+}
 .header-login {
 border-right: 1px #7d7d7d solid; 
 display:block;
@@ -42,6 +43,8 @@ font-size: 0.9em;
 width:100%;
 background-color:#fff;
 clear:both;
+height:56px;
+background-color:white;
 }
 .header-nav .wrapper .header-gauche ul li {
 display:block;
@@ -52,12 +55,162 @@ padding-left:5px;
 padding-right:5px;
 border-left: 1px solid #eeeeee;
 line-height: 56px;
-font-family: 'Open Sans', sans-serif;
+}
+.background-fav {
+background-color:#adadad;
+}
+.background-panier {
+background-color:#57c5a0;
 }
 .header-nav .wrapper .header-gauche ul li:last-child {
 border-right: 1px solid #eeeeee;
 }
+.header-fav, .header-panier {
+border-left: 1px solid #cccccc;
+display:block;
+float:left;
+line-height:56px; 	
+padding-left:15px;
+padding-right:15px;
+}
+.header-panier {
+border-right: 1px solid #cccccc;
+}
+.header-fav i, .header-panier i {
+padding-left:5px;
+padding-right:5px;
+line-height:20px;
+}
+.background-fav, .background-panier {
+text-decoration:none;
+color:white;
+padding:4px;
+width:20px;
+text-align:center;
+display:inline-block;
+line-height:20px;
+border-radius:7px;
+font-size:0.8em;
+margin-left:5px;
+margin-right:5px;
+}
 .header-nav .wrapper .header-gauche ul li a {
 text-decoration:none;
 color:#414141;
+}
+.slider {
+width:100%;
+height:560px;
+clear:both;
+}
+.slider-img {
+display:block;
+float:left;
+width:50%;
+}
+.slider-droit {
+display:block;
+box-sizing:border-box;
+float:left;
+width:50%;
+padding-left:2%;
+}
+.bouton-vert {
+background-color:#57c5a0;
+padding:25px 5px 25px 5px;
+color:white;
+font-weight:bold;
+}
+.prix-slider {
+display:block;
+width: 55px;
+margin-top:15%;
+margin-bottom:2%;
+}
+.slider-titre {
+clear:both;
+font-size:2.5em;
+display:block;
+margin-top:1%;
+}
+.slider-petittitre {
+display:block;
+margin-top:3%;
+font-size:1.4em;
+width:95%;
+}
+.slider-bouton {
+display:block;
+float:left;
+background-color:white;
+padding:10px;
+color:#7b7b7b;
+font-size:1.2em;
+margin:1px;
+}
+.slider-icon {
+display:block;
+margin-top:3%;
+}
+.slider-icon span:last-child {
+color:#57c5a0;
+}
+.slider-barre {
+display:block;
+clear:both;
+width:100%;
+background-color:#2e2e2e;
+height:25px;
+padding-top:10px;
+}
+.slider-barre-item {
+height:10px;
+width:20%;
+display:block;
+float:left;
+background-color:black;
+}
+.slider-border {
+display:block;
+width:90%;
+margin:0 auto;
+height:6px;
+margin-top:2px;
+}
+.border {
+display:block;
+margin:0 auto;
+height:6px;
+margin-top:2px;
+border-right:2px solid #2e2e2e;
+}
+.border.last {
+border:none;
+}
+.slider-border.clique {
+background-color:#57c5a0;
+}
+.clique .slider-tri-item-titre {
+color:white;
+}
+.clique .slider-tri-item-prix {
+color:#8b8b8b;
+}
+.slider-tri {
+width:100%;
+background-color:#2e2e2e;
+height:100px;
+clear:both;
+}
+.slider-tri-item-titre {
+font-weight:bold;
+}
+.slider-tri-item-prix {
+font-size:0.8em;
+}
+.slider-tri-item span {
+color:#979797;
+display:block;
+text-align:center;
+line-height:20px;
 }
